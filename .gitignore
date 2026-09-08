@@ -1,0 +1,11 @@
+# Ignorar todo por defecto
+/*
+!.gitignore
+
+# WM, Compositor y Apariencia
+!/hypr/
+!/quickshell/
+
+!/README.md
+!/assets/
+
