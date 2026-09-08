@@ -150,5 +150,8 @@ hl.window_rule({
 
 })
 
-
-
+hl.window_rule({
+  match = { title = "^oh-my-opencode-slim-companion$" },
+  float = true,
+  move = {"(monitor_w*0.93)", "(monitor_h*0.88)"},
+})

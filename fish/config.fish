@@ -27,6 +27,8 @@ end
 
 # opencode
 fish_add_path /home/graso/.opencode/bin
+set -gx OPENCODE_EXPERIMENTAL_BACKGROUND_SUBAGENTS true
+set -gx OPENCODE_ENABLE_EXA 1
 
 # OpenClaw Completion
 test -f "/home/graso/.openclaw/completions/openclaw.fish"; and source "/home/graso/.openclaw/completions/openclaw.fish"

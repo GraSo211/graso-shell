@@ -17,7 +17,7 @@ hl.env("SDL_VIDEODRIVER", "wayland")                -- SDL2: Force Wayland for g
 hl.env("CLUTTER_BACKEND", "wayland")                -- Clutter: Force the Wayland backend
 hl.env("QT_WAYLAND_DISABLE_WINDOWDECORATION", "1")  -- Qt: Disable double/native window decorations
 
-hl.env("QT_QUICK_CONTROLS_STYLE", "hyprland")
+hl.env("QT_QUICK_CONTROLS_STYLE","org.hyprland.style")
 hl.env("QT_QPA_PLATFORMTHEME", "hyprqt6engine")
 
 --------------------------------------------------------------------------------

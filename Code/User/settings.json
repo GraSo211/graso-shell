@@ -219,8 +219,6 @@
     "dotnet.inlayHints.enableInlayHintsForParameters": true,
     "python.analysis.inlayHints.callArgumentNames": "all",
     "java.inlayHints.parameterNames.enabled": "all",
-    "gitlens.ai.model": "vscode",
-    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "workbench.secondarySideBar.defaultVisibility": "visible",
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
@@ -325,5 +323,6 @@
         "name": "Qt-5.15.19-linux-g++-x86_64_from_PATH",
         "path": "/usr/bin/qmake"
     }
-]
+],
+"qt-qml.qmlls.customExePath": "/usr/lib/qt6/bin/qmlls"
 }
