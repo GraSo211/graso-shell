@@ -4,20 +4,20 @@
   "final_space": true,
   "console_title_template": "{{ .Shell }} in {{ .Folder }}",
   "palette": {
-    "primary": "#bec8c9",
-    "on-primary": "#293233",
-    "primary-container": "#667071",
+    "primary": "#7dd3e4",
+    "on-primary": "#00363e",
+    "primary-container": "#0f7b8a",
     "on-primary-container": "#ffffff",
-    "tertiary": "#d8c2b9",
-    "on-tertiary": "#3b2d28",
-    "tertiary-container": "#7c6a63",
+    "tertiary": "#ffb77a",
+    "on-tertiary": "#4c2700",
+    "tertiary-container": "#9e6229",
     "on-tertiary-container": "#ffffff",
-    "surface": "#131313",
-    "surface-variant": "#434848",
-    "on-surface-variant": "#c3c7c8",
+    "surface": "#101415",
+    "surface-variant": "#3e494b",
+    "on-surface-variant": "#bec8cb",
     "error": "#ffb4ab",
     "on-error": "#690005",
-    "outline": "#8d9292"
+    "outline": "#889395"
   },
   "blocks": [
     {
