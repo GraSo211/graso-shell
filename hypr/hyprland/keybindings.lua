@@ -21,7 +21,7 @@ hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager)) -- file explorer
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(code)) -- vscode
 hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal)) -- terminal 
 hl.bind(mainMod .. " + SUPER_L", hl.dsp.exec_cmd(launcher), { release = true  }) -- apps launcher
-hl.bind(mainMod .. " + Tab", hl.dsp.exec_cmd("skwd wall toggle"))
+hl.bind(mainMod .. " + Tab", hl.dsp.exec_cmd("skwd-wall-v2 toggle"))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close()) -- close windows
 hl.bind("ALT" .. " + Tab", function() hl.plugin.overview.toggle("all") end) -- use pluggin hyprspace to navigate workspaces
 
