@@ -150,8 +150,24 @@ hl.window_rule({
 
 })
 
+-- APPS
+--
+-- opencode companion
 hl.window_rule({
   match = { title = "^oh-my-opencode-slim-companion$" },
   float = true,
   move = {"(monitor_w*0.93)", "(monitor_h*0.88)"},
 })
+
+-- heronite
+hl.window_rule({
+	name = "heronite rules",
+	match = {
+		title = "Heronite"
+	},
+	float = true,
+	fullscreen = true,
+
+
+})
+

@@ -7,7 +7,7 @@ local browser = "zen-browser"
 local code = "code"
 local fileManager = "dolphin"
 local terminal = "kitty"
-local launcher = "pkill rofi || rofi -show run"
+local launcher = "pkill rofi || rofi -show drun"
 local lockscreen = "hyprlock"
 local logoutMenu = "pkill wlogout || wlogout"
 

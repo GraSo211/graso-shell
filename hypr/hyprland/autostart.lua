@@ -2,7 +2,7 @@ local notification_daemon = "swaync"
 local idle_manager = "hypridle"
 hl.on("hyprland.start",function ()
 	hl.exec_cmd(notification_daemon) -- notification manager
-	hl.exec_cmd("systemctl --user start skwd-daemon") -- wallpaper manager
+	hl.exec_cmd("systemctl --user start skwd-walld.service") -- wallpaper manager
 	hl.exec_cmd(idle_manager) -- idle manager
 	hl.exec_cmd("wl-paste --type text --watch cliphist store") -- clipboard store text
 	hl.exec_cmd("wl-paste --type image --watch cliphist store") -- clipboard store images
